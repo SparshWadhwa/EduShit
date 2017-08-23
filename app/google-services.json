@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "265523376257",
+    "firebase_url": "https://edushit-bb734.firebaseio.com",
+    "project_id": "edushit-bb734",
+    "storage_bucket": "edushit-bb734.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265523376257:android:6a9614ad7563a124",
+        "android_client_info": {
+          "package_name": "com.example.hp.edushit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265523376257-n34g6hb1n4e0kkfkcu3mic13kpmdb3gn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.edushit",
+            "certificate_hash": "ed9a8b541addfb8855e10a65cf9170e81d582fd6"
+          }
+        },
+        {
+          "client_id": "265523376257-vii2jvjnrs6s1648dvmk9u7ktu3un9m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASvjBFtNIwgVeu5IWHrdC9oi5drXTi2q8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265523376257-vii2jvjnrs6s1648dvmk9u7ktu3un9m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
