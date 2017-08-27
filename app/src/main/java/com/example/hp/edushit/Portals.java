@@ -6,14 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.hp.edushit.Students.SchoolName;
+
 public class Portals extends AppCompatActivity {
 
     private Button student_portal;
     private Button teacher_portal;
     private Button parent_portal;
 
-    static boolean isStudent=false,isTeacher=false,isParent=false;
-
+   // static boolean isStudent=false, isTeacher=false,isParent=false;
+   public static int status;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +29,7 @@ public class Portals extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                isStudent=true;
+               status=1;        //status=1 means student
                 Intent i = new Intent(Portals.this, SchoolName.class);
                 startActivity(i);
 

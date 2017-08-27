@@ -1,4 +1,4 @@
-package com.example.hp.edushit;
+package com.example.hp.edushit.Students;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.hp.edushit.R;
 
 public class Student_MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -80,9 +82,14 @@ public class Student_MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,new student_home()).commit();
+
+        } else if (id == R.id.nav_joinclass) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,new student_joinClass()).commit();
+
+
 
         } else if (id == R.id.nav_slideshow) {
 

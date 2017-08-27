@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Portals" />
-        <activity android:name=".SchoolName" />
-        <activity android:name=".StudentInfo" />
+        <activity android:name=".Students.SchoolName" />
+        <activity android:name=".Students.StudentInfo" />
         <activity
-            android:name=".Student_MainActivity"
+            android:name=".Students.Student_MainActivity"
             android:label="@string/title_activity_student__main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

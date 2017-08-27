@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hp.edushit.SchoolName">
+    tools:context="com.example.hp.edushit.Students.SchoolName">
 
     <TextView
         android:id="@+id/textView"
@@ -22,5 +22,16 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="ok" />
+
+    <EditText
+        android:id="@+id/schoolname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter yr scl name" />
 
 </RelativeLayout>
